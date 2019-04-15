@@ -1,0 +1,106 @@
+body {
+	font-family: 'Arial', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+span{
+	font-family: 'Times New Roman', sans-serif;
+}
+div, p, a, img, form, button {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	background: url(../images/main-image.jpg) no-repeat;
+	height: 880px;
+}
+
+.container{
+	width: 1150px;
+	margin: 0 auto;
+}
+
+.nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 21px;
+}
+
+.menu{
+	display: flex;
+}
+
+.menu li{
+	color:#fff;
+	padding: 0 15px;
+	text-transform: uppercase;
+}
+
+.title{
+	text-align: center;
+	padding-top:140px;
+	color:#fff;
+}
+
+.first-text{
+	font-size: 36px;
+	font-weight: bold;
+	color:#ebe0dd;
+	letter-spacing: 2.5px;
+}
+
+.title h1{
+	font-size: 100px;
+	margin-top: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.first-button{
+	padding-top: 30px;
+}
+
+.button{
+	font-size: 18px;
+	padding: 20px 70px;
+	border: 2px solid #fff;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.button:hover{
+	background-color:#f68073;
+	transition: all 0.5s ease;
+	border: 2px solid #f68073;
+}
+
+.title p{
+	padding-top: 35px;
+	font-size:14px;
+	text-transform: uppercase;
+	color:#eadcde;
+}
+
+.title p a{
+	text-decoration:underline;
+	color:#fff;
+}
+
+
