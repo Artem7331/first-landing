@@ -45,6 +45,7 @@ header {
 
 .menu {
 	display: flex;
+	justify-content: flex-end;
 }
 
 .menu a {
@@ -233,7 +234,6 @@ article{
 	text-align: center;
 	font-weight: 400;
 	font-family: 'Lato', sans-serif;
-
 }
 
 .slider span{
@@ -255,18 +255,91 @@ aside{
 	font-weight: 400;
 }
 
-.food{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: baseline;
-	align-content: flex-start;
-	width: 100%; 	
+ul{
+	width: 100%;
 }
 
-.food img{
+.product{
+	display: inline-block;
 	width: 20%;
 	line-height: 50%;
 	text-align: center;
+}
+
+.eat{
+	display: inline-block;
+	text-align: center;
+}
+
+
+
+.eat img{
+	width: 266px;
+    height: 225px;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.eat p span{
+	position: absolute;
+	top: 200px;
+	left: 0;
+	width: 0;
+	bottom:0;
+}
+
+.score{
+	padding-top: 50px;
+}
+
+.all{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+}
+
+.counter h6{
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 30px;
+}
+
+.counter p{
+	text-align: center;
+	color: #000000;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 18px;
+}
+
+footer{
+	padding:25px 25px;
+}
+
+footer span{
+	float: left;
+	padding-left: 200px;
+	opacity: 0.5;
+	color: #8b8b8b;
+}
+
+footer p{
+	float: right;	
+	padding-right: 200px;
+	color: #8b8b8b;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 2.8px;
+	text-transform: uppercase;
+}
+
+footer a{
+	color: #000000;
+	font-weight: 600;
+	letter-spacing: 2.8px;
 }
